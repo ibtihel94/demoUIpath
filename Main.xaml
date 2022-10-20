@@ -52,14 +52,22 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence for hello wordl message" sap:VirtualizedContainerService.HintSize="400,186.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sequence for hello wordl message" sap:VirtualizedContainerService.HintSize="443.2,309.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box hello wordl" sap:VirtualizedContainerService.HintSize="356.8,95.2" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello word change&quot;]" />
+    <Sequence sap:VirtualizedContainerService.HintSize="400,218.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box hello wordl" sap:VirtualizedContainerService.HintSize="337.6,95.2" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello word change&quot;]" />
+    </Sequence>
   </Sequence>
 </Activity>
